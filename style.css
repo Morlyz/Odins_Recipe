@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-color: rgb(38, 37, 37);
+}
+body{
+    text-align: center;
+    color: beige;
+    margin: 20px auto;
+    width: 60%;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.logo{
+    width: 100px;
+}
+.slogan{
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+.span{
+    color: rgb(243, 222, 186);
+}
+.line{
+    color: beige;
+    border: 0.5px beige solid;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.intro{
+    margin: 3rem 0px 5rem 0px;
+    font-size: 19px;
+}
+.meals{
+    border: 0px;
+    width: 250px;
+    margin: 20px;
+    min-height: 250px;
+    border-radius: 10px;
+    color: black;
+    background-color: none;
+    text-transform: capitalize;
+
+}
+.deli{
+    background-image: url("images/Challah-Feature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cakes{
+    background-image: url("images/Red-Velvet-Feature-1a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cookies{
+    background-image: url("images/cookie-ddough-feature-n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cupcakes{
+    background-image: url("images/Strawberry-Cupcakes-Feature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* top: 50%; */
+    background: none;
+    /* color: black; */
+    opacity: 1;
+    font-size: 25px;
+    font-weight: 500;
+    font-style:oblique;
+
+}
+.meals:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+
+    color: beige;
+}
+a:hover{
+    background-color: rgb(39, 37, 37);
+    opacity: 0.6;
+}
+img{
+    width: 250px;
+    border-radius: 15px;
+}
